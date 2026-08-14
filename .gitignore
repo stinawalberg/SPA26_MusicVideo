@@ -1,7 +1,7 @@
 # Student group folders
-Content/StudentWork/Group0/
-Content/StudentWork/Group1/
-Content/StudentWork/Group2/
+Content/02_StudentWork/Group0/
+Content/02_StudentWork/Group1/
+Content/02_StudentWork/Group2/
 
 # Unreal generated folders
 Binaries/
@@ -10,7 +10,7 @@ Intermediate/
 Saved/
 
 # Local/course asset packs
-Content/CourseAssets/
+Content/01_CourseAssets/
 Content/PortCity/
 Content/ZenUV_SciFi_TrimSheet/
 
