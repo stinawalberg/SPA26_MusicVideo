@@ -1,25 +1,15 @@
-# Ignore everything by default
-/*
+# Unreal generated folders
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
 
-# Keep Git config files
-!/.gitignore
-!/.gitattributes
+# Local/course asset packs
+Content/CourseAssets/
+Content/PortCity/
+Content/ZenUV_SciFi_TrimSheet/
 
-# Keep Unreal project file
-!/*.uproject
-
-# Keep project settings
-!/Config/
-!/Config/**
-
-# Ändra till gruppens siffra nedan! Istället gör Group0 skriver du Group1, Group2, osv.
-!/Content/
-!/Content/StudentWork/
-!/Content/StudentWork/Group0/
-!/Content/StudentWork/Group0/**
-
-# Always ignore generated Unreal folders
-/Saved/
-/Intermediate/
-/DerivedDataCache/
-/Binaries/
+# Student group folders
+Content/StudentWork/Group0/
+Content/StudentWork/Group1/
+Content/StudentWork/Group2/
