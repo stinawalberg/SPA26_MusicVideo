@@ -1,3 +1,8 @@
+# Student group folders
+Content/StudentWork/Group0/
+Content/StudentWork/Group1/
+Content/StudentWork/Group2/
+
 # Unreal generated folders
 Binaries/
 DerivedDataCache/
@@ -9,7 +14,6 @@ Content/CourseAssets/
 Content/PortCity/
 Content/ZenUV_SciFi_TrimSheet/
 
-# Student group folders
-Content/StudentWork/Group0/
-Content/StudentWork/Group1/
-Content/StudentWork/Group2/
+# Ignore levels
+Content/Main.umap
+Content/STUDENT_LEVEL.umap
