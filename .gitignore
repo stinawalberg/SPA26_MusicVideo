@@ -1,22 +1,25 @@
-Binaries
-DerivedDataCache
-Intermediate
-Saved
-.vscode
-.vs
-*.VC.db
-*.opensdf
-*.opendb
-*.sdf
-*.sln
-*.suo
-*.xcodeproj
-*.xcworkspace
-/Content/CourseAssets/
-/Content/ZenUV_SciFi_TrimSheet/
-/Content/StudentWork/Group1/
-/Content/StudentWork/Group2/
-/Content/StudentWork/Group3/
-/Content/StudentWork/Group4/
-/Content/StudentWork/Group5/
-/Content/StudentWork/Group6/
+# Ignore everything by default
+/*
+
+# Keep Git config files
+!/.gitignore
+!/.gitattributes
+
+# Keep Unreal project file
+!/*.uproject
+
+# Keep project settings
+!/Config/
+!/Config/**
+
+# Ändra till gruppens siffra nedan! Istället gör Group0 skriver du Group1, Group2, osv.
+!/Content/
+!/Content/StudentWork/
+!/Content/StudentWork/Group0/
+!/Content/StudentWork/Group0/**
+
+# Always ignore generated Unreal folders
+/Saved/
+/Intermediate/
+/DerivedDataCache/
+/Binaries/
